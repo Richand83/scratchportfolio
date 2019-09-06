@@ -1,11 +1,23 @@
 @import url('https://fonts.googleapis.com/css?family=Play:700&display=swap');
-
+@keyframes borderTransition {
+    100% {
+        width: 50px;
+    }
+}
+html {
+    scroll-behavior: smooth;
+}
 .navbar {
-    border: 1px solid red;
+    
     transition: 0.4s; /* Adds a transition effect when the padding is decreased */
     padding: 15px;
     top: 0; /* At the top */
     z-index: 99; 
+    background: linear-gradient(90deg, #00d2ff 0%, #00a6c2 100%);
+}
+.navbar a {
+    color: white;
+    font-weight: 700;
 }
 .hero {
     height: 50%;
@@ -29,8 +41,9 @@
     font-family: 'Play', sans-serif;
   }
 .about-section {
-    margin-top: 40px;
-    padding: 15px;
+    
+    padding: 45px 15px 15px 40px;
+    background: #F0FFFF;
 }
 div column is-7 {
     padding: 0px;
@@ -62,8 +75,36 @@ p {
 #strong {
     color: #00a6c2;
     font-weight: 900;
-    
 }
+/* Inspired by Hover.css */
+.hvr-underline-from-left {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    position: relative;
+    overflow: hidden;
+  }
+  .hvr-underline-from-left:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    right: 100%;
+    bottom: 0;
+    background: #00a6c2;
+    height: 2px;
+    -webkit-transition-property: right;
+    transition-property: right;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+  }
+  .hvr-underline-from-left:hover:before, .hvr-underline-from-left:focus:before, .hvr-underline-from-left:active:before {
+    right: 0;
+  }
 
 /* .effect3d {
     animation-name: effect3d;
