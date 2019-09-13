@@ -3,81 +3,162 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Hello Bulma!</title>
+    <title>Welcome!</title>
     <link rel="stylesheet" href="static/css/main.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css">
     <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
     <script src="static/JavaScript/main.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
-
+    <link rel="stylesheet" href="static/css/animations.css">
+    <script src="https://kit.fontawesome.com/39cdcaa672.js"></script>
   </head>
   <body>
-    <section>
-        <nav class="navbar is-fixed-top" id="navbar" role="navigation" aria-label="main navigation">
-            <div class="navbar-brand">
-                <a class="navbar-item" id="logo" href="https://bulma.io">
-                <img src="https://bulma.io/images/bulma-logo.png" width="112" height="28">
-                </a>
+      <div class="animatedParent">
+            <nav class="navbar is-transparent animated growIn animateOnce" id="navbar" role="navigation" aria-label="main navigation">
+                <div class="navbar-brand">
+                    <a class="" id="logo" href="#">
+                    <img src="static/imgs/Render R_512.png">
+                    </a><p id="logo-txt">ICHARD</p>
 
-                <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
-                <span aria-hidden="true"></span>
-                <span aria-hidden="true"></span>
-                <span aria-hidden="true"></span>
-                </a>
-            </div>
-
-            <div id="navbarBasicExample" class="navbar-menu">
-                <div class="navbar-end">
-                    <a class="navbar-item is-active hvr-underline-from-left" href="#home">
-                        Home
+                    <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="basicNav">
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
                     </a>
-                    <a class="navbar-item hvr-underline-from-left" href="#about">
-                        About
-                    </a>
-                    <a class="navbar-item hvr-underline-from-left" href="#portfolio">
-                        Portfolio
-                    </a>
-                    <a class="navbar-item hvr-underline-from-left" href="#projects">
-                        Projects
-                    </a>
-                    <a class="navbar-item hvr-underline-from-left" href="#contact">
-                        Contact
-                    </a>
-
                 </div>
-            </div>
-        </nav>
-    </section>
-    <section class="hero is-medium" id="home"> 
-        
-        <img src="static/imgs/portland.jpg" alt="portland skyline">
-        <div class="hero-text">
-                <h1>Hello i'm Richard Andreasen Welcome to my Portfolio</h1>
+                <div id="basicNav" class="navbar-menu">
+                    <div class="navbar-end">
+                        <a class="navbar-item hvr-underline-from-left" href="#about">
+                            About
+                        </a>
+                        <a class="navbar-item hvr-underline-from-left" href="#portfolio">
+                            Portfolio
+                        </a>
+                        <a class="navbar-item hvr-underline-from-left" href="#contact">
+                            Contact
+                        </a>
+                    </div>
+                </div>
+            </nav>
         </div>
-    </section>
-    <section class="about-section" id="about">
-        <div class="container is-fluid">
-            <div class="columns is-vcentered">
-                <div class="column is-5-mobile">
-                    <img src="./static/imgs/personal2.jpg" alt="selfie2">
-                </div>
-                <div class="column is-7">
-                    <h1 class="bounce">
-                        ABOUT ME
-                    </h1>
-                    <p class="paragraph-one">
-                        I am a Mortgage servicing specialist in a highly adaptive role, I have a passion for helping people understand their <span class="hvr-underline-from-left" id="strong">true potential</span>, and I also have an affinity for knowledge.
-                    </p>
-                    <p class="paragraph-two">
-                        I’ve learned multiple different programming languages, resulting in a Full Stack accreditation from <span class="hvr-underline-from-left" id="strong">Coding Dojo</span>. Which include Application development, UX/UI Design, Algorithms, Object-oriented design, and the ability to pick up new technologies quickly and implement them immediately. I come from a wide range background of different industries including mechanics, customer service, external & internal clientele, as well as project based teams and working with non-profit organizations. Why does this matter? I can relate to many different clients from all backgrounds. I know people and I know tech and i'm determined to mold both together as harmoniously as possible.
-                    </p>
+        <section class="hero is-white has-text-centered">
+            <div class="hero-body">
+                <div class="container">
+                    <div class="columns is-centered">
+                        <div class="column">
+                            <h1 class="title is-spaced is-size-1-desktop is-size-2-tablet is-size-3-mobile" id="hero-txt">FullStack Web Developer</h1>
+                            <h2 class="subtitle is-size-4-desktop" id="sub-txt">Solving Problems One at a Time</h2>
+                            <img class="bitmoji" src="static/imgs/IMG_1568.jpeg" alt="avatar">
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>
+            <div class="hero-foot">
+                <div class="container animatedParent" data-sequence="500">
+                   <a href="#about-skills"><img class="is-bottom fas fa-database animated pulse" data-id="1" id="icon"></a>
+                   <a href="#portfolio"><img class="is-bottom fas fa-desktop animated pulse" data-id="2" id="icon"></a>
+                   <a href="#contact"><img class="is-bottom fas fa-mobile animated pulse" data-id="3" id="icon"></a>
+                </div>
+            </div>
+        </section>
+        <section class="is-medium has-text-centered sections about-section">
+            <div class="container">
+                <div class="columns is-centered">
+                    <div class="column is-three-fifths txt-style">
+                        <h1 class="title is-spaced is-size-1-desktop is-size-3-mobile" id="hero-txt">
+                            Hi There i'm Richard 
+                        </h1>
+                        <h2 class="subtitle is-size-4-desktop" id="sub-txt">
+                            Thank you for visiting my website currently I am a Junior Developer for <a href=""></a> hire. I've learned multiple different technical languages resulting in a Full Stack accredidation from Coding Dojo. Which include Application development, UX/UI Design, Algorithms, Object-oriented design, and the ability to pick up new technologies and implement them immediately.
+                        </h2>
+                        <i class="fab fa-css3" id="icon2"></i>
+                        <i class="fab fa-html5" id="icon2"></i>
+                        <i class="fab fa-react" id="icon2"></i>
+                        <i class="fab fa-python" id="icon2"></i>
+                        <i class="fab fa-js-square" id="icon2"></i>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="sections has-text-centered is-long" id="">
+            <div class="container is-narrow">
+                <div class="box is-half" id="position">
+                    <div class="columns is-centered">
+                        <div class="column is-half">
+                            <h1 class="is-size-2-desktop is-size-3-tablet is-size-4-mobile">Languages</h1>
+                            <i class="fab fa-python" id="icon2"></i>
+                            <i class="fab fa-js-square" id="icon2"></i>
+                            <i class="fab fa-css3" id="icon2"></i>
+                            <ul id="skills">
+                                <li>
+                                    Python
+                                </li>
+                                <li>
+                                    JavaScript (ES5, ES6)
+                                </li>
+                                <li>
+                                    HTML5
+                                </li>
+                                <li>
+                                    CSS
+                                </li>
+                                <li>
+                                    MySQL, SQLite
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="column is-half">
+                            <h1 class="is-size-2-desktop is-size-3-tablet is-size-6-mobile">Frameworks/Libraries</h1>
+                            <i class="fab fa-react" id="icon2"></i>
+                            <i class="fas fa-flask" id="icon2"></i>
+                            <i class="fab fa-css3" id="icon2"></i>
+                            <ul id="skills">
+                                <li>
+                                    ReactJS
+                                </li>
+                                <li>
+                                    JQuery
+                                </li>
+                                <li>
+                                    AJax
+                                </li>
+                                <li>
+                                    Bulma
+                                </li>
+                                <li>
+                                    Bootstrap
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="has-text-centered sections" id="project-section">
+            <div class="container">
+                <h1 class="is-size-2-desktop is-size-4-mobile">Recent Work</h1>
+                <p class="subtitle is-size-3-desktop is-size-4-mobile" id="sub-txt">More coming soon</p>
+            </div>
+            <div class="columns">
+                <div class="column is-12-mobile is-one-third-desktop">
+                    <figure class="image is-3by2">
+                        <a href="http://ec2-3-16-213-47.us-east-2.compute.amazonaws.com/"> <img src="static/imgs/Screen Shot 2019-09-12 at 8.05.13 PM.png" alt="Group Project"></a>
+                    </figure>
+                </div>
+                <div class="column is-12-mobile is-one-third-desktop">
+                    <figure class="image is-3by2">
+                        <a href="http://ec2-3-16-213-47.us-east-2.compute.amazonaws.com/"> <img src="static/imgs/Screen Shot 2019-09-12 at 8.05.13 PM.png" alt="Group Project"></a>
+                    </figure>
+                </div>
+                <div class="column is-12-mobile is-one-third-desktop">
+                    <figure class="image is-3by2">
+                        <a href="http://ec2-3-16-213-47.us-east-2.compute.amazonaws.com/"> <img src="static/imgs/Screen Shot 2019-09-12 at 8.05.13 PM.png" alt="Group Project"></a>
+                    </figure>
+                </div>
+            </div>
 
+        </section>
 
-
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="static/JavaScript/css3-animate-it.js"></script>
   </body>
 </html>

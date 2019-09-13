@@ -24,7 +24,7 @@ document.addEventListener('DOMContentLoaded', () => {
 window.onscroll = function() {scrollFunction()};
 
     function scrollFunction() {
-    if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+    if (document.body.scrollTop > 5 || document.documentElement.scrollTop > 5) {
         document.getElementById("navbar").style.padding = "0";
         document.getElementById("logo").style.fontSize = "13px";
         
