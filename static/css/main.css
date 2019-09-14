@@ -105,6 +105,7 @@ p{
 #project-section img{
     border-radius: 20px;
     margin-top: 20px;
+    
 }
 #project-section {
     background: blueviolet;
@@ -112,7 +113,7 @@ p{
     border-top: 5px solid #00a6c2;
     border-bottom: 5px solid #00a6c2;
     color: #00a6c2;
-    padding-bottom: 20px;
+    padding-bottom: 70px;
 }
 
 .area {
