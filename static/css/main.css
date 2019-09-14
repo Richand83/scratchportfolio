@@ -112,8 +112,12 @@ p{
     border-top: 5px solid #00a6c2;
     border-bottom: 5px solid #00a6c2;
     color: #00a6c2;
+    padding-bottom: 20px;
 }
 
+.area {
+    padding-top: 20px;
+}
 
 /* Inspired by Hover.css */
 .hvr-underline-from-left {
@@ -146,4 +150,12 @@ p{
   .hvr-underline-from-left:hover:before, .hvr-underline-from-left:focus:before, .hvr-underline-from-left:active:before {
     right: 0;
   }
-  /* Portfolio Section */
+  
+  footer {
+    background: blueviolet;
+    color: #00a6c2
+    
+  }
+  footer img {
+      background: #00a6c2;
+  }
