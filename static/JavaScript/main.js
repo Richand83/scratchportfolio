@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', () => {
           // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
           el.classList.toggle('is-active');
           $target.classList.toggle('is-active');
-  
+          $target.removeClass('is-active');
         });
       });
     }
@@ -31,6 +31,6 @@ window.onscroll = function() {scrollFunction()};
     } else {
         document.getElementById("navbar").style.padding = "15px";
         document.getElementById("logo").style.fontSize = "13px";
-    }
+      }
     }
   });

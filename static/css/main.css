@@ -28,12 +28,12 @@ p{
 }
 
 #hero-txt {
-    color: #00a6c2;
+    color: #0e0e0e;
     font-weight: 700;
 }
 
 #sub-txt {
-    color: #00a6c2;
+    color: white;
     font-weight: 400;
     font-size: 1.5rem;
     font-family: 'Quicksand', sans-serif;
@@ -69,7 +69,16 @@ p{
 #icon2 {
     height: 42px;
     width: 42px;
-    color: #00a6c2;
+    color: white;
+    border: 2px solid;
+    padding: 5px;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+#icon3 {
+    height: 42px;
+    width: 42px;
+    color: blueviolet;
     border: 2px solid;
     padding: 5px;
     border-radius: 10px;
@@ -154,9 +163,8 @@ p{
   
   footer {
     background: blueviolet;
-    color: #00a6c2
     
   }
   footer img {
-      background: #00a6c2;
+      background: white;
   }
